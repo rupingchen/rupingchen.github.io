@@ -5,6 +5,14 @@ html, body {
     font-family: "Raleway";
 }
 
+#landing-page{
+	z-index:0;
+}
+
+#quote p{
+	z-index:3;
+}
+
 #intro {
 	margin-top: 268px;
 	margin-left: 80px;
@@ -15,4 +23,22 @@ html, body {
 #intro h3 {
 	font-size: 24;
 	font-family: "Lusitana";
+}
+
+#first{
+	z-index:5;
+	position:fixed;
+	background-color: #D1E6FF;
+	height:100%;
+	width:10%;
+	margin-left:90%;
+}
+
+#second {
+	z-index: 4;
+	position:absolute;
+	height:30%;
+	width:10%;
+	background-color: #D1E6FF;
+
 }
