@@ -1,5 +1,18 @@
 html, body {
     margin: 0px;
-    padding:60px;
+    padding:0px;
     background-color: #CFD4C5;
+    font-family: "Raleway";
+}
+
+#intro {
+	margin-top: 268px;
+	margin-left: 80px;
+	margin-right: 724px;
+	margin-bottom: 60px;
+}
+
+#intro h3 {
+	font-size: 24;
+	font-family: "Lusitana";
 }
