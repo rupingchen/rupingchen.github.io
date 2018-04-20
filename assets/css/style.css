@@ -1,6 +1,6 @@
 html, body {
-    margin: 0px;
-    padding:0px;
+    margin: 0%;
+    padding:0%;
     background-color: #CFD4C5;
     font-family: "Raleway";
 }
@@ -9,15 +9,19 @@ html, body {
 	z-index:0;
 }
 
-#quote p{
-	z-index:3;
+#quote {
+	position:relative;
+	z-index:4;
+	margin-left:7%;
+	font-size:22;
+	top:60px;
 }
 
 #intro {
-	margin-top: 268px;
-	margin-left: 80px;
-	margin-right: 724px;
-	margin-bottom: 60px;
+	margin-top: 25%;
+	margin-left: 7%;
+	margin-right: 58%;
+	margin-bottom: 20%;
 }
 
 #intro h3 {
@@ -37,8 +41,38 @@ html, body {
 #second {
 	z-index: 4;
 	position:absolute;
-	height:30%;
+	height:35%;
 	width:10%;
 	background-color: #D1E6FF;
+}
+
+#third {
+	z-index:3;
+	position:absolute;
+	margin-left:7%;
+	width:15%;
+	height:45%;
+	background-color: #F2F8FF;
+}
+
+#fourth {
+	z-index:1;
+	position:absolute;
+	margin-left:30%;
+	background-color: #D9EAFF;
+	width:20%;
+	height:50%;
+}
+
+#fifth {
+	z-index:6;
+	position:absolute;
+	margin-left:70%;
+	background-color: #B4D4FA;
+	width:25%;
+	height:80%;
+}
+
+#sixth {
 
 }
