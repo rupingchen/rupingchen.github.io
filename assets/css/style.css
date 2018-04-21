@@ -5,6 +5,8 @@ html, body {
     font-family: "Raleway";
 }
 
+
+/*First Page*/
 #landing-page{
 	z-index:0;
 }
@@ -70,7 +72,7 @@ html, body {
 	margin-left:72%;
 	background-color: #B4D4FA;
 	width:25%;
-	height:102%;
+	height:115%;
 }
 
 #sixth {
@@ -81,7 +83,6 @@ html, body {
 	width:25%;
 	height:110%;
 	margin-top: 10%;
-
 }
 
 
@@ -94,5 +95,11 @@ html, body {
 	max-height: 100%;
 	left:57%;
 	top:5%;
+}
 
+#nav-bar {
+	z-index:8;
+	position:absolute;
+	margin-top:23%;
+	margin-left:38.5%;
 }
