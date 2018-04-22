@@ -62,7 +62,7 @@ html, body {
 	position:absolute;
 	margin-left:37%;
 	background-color: #D9EAFF;
-	width:25%;
+	width:20%;
 	height:60%;
 }
 
@@ -97,6 +97,10 @@ html, body {
 	top:5%;
 }
 
+.button{
+	font-size:17px;
+}
+
 #nav-bar {
 	z-index:8;
 	position:absolute;
@@ -104,26 +108,26 @@ html, body {
 	margin-left:38.5%;
 }
 
+/*Mobile */
 @media (min-width:300px) and (max-width:400px) {
 	#quote {
-		position:relative;
-		z-index:4;
-		margin-left:10%;
-		font-size:15;
+		margin-left:0%;
+		font-size:10;
 		top:60px;
 	}
 	#intro {
-		margin-top: 60%;
+		margin-top: 65%;
 		margin-left: 7%;
 		margin-right: 8%;
 		margin-bottom: 0%;
 	}
-	#first {
-		height:100%;
-		width:10%;
-		margin-left:90%;
+	#intro h3 {
+		font-size: 15;
 	}
-
+	#first {
+		width:5%;
+		margin-left:95%;
+	}
 	#seventh img {
 		display:none;
 	}
@@ -138,30 +142,27 @@ html, body {
 		height:30%;
 	}
 	#fourth {
-		z-index:1;
-		position:absolute;
 		margin-left:37%;
-		background-color: #D9EAFF;
 		width:25%;
-		height:60%;
+		height:35%;
 	}
 	#fifth {
-		z-index:6;
-		position:absolute;
 		margin-left:72%;
-		background-color: #B4D4FA;
 		width:25%;
-		height:115%;
+		height: 38%;
 	}
-
 	#sixth {
-		z-index: 7;
-		position:absolute;
-		margin-left:49%;
-		background-color: #F2F8FF;
-		width:25%;
-		height:110%;
-		margin-top: 10%;
+		margin-left:58%;
+		width:20%;
+		height:30%;
+		margin-top: 0%;
 	}
 
+	#nav-bar {
+		margin-top:50%;
+		margin-left:39%;
+	}
+	.button {
+		font-size: 10px;
+	}
 }
