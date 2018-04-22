@@ -103,3 +103,38 @@ html, body {
 	margin-top:23%;
 	margin-left:38.5%;
 }
+
+@media (min-width:368px) and (max-width:731px){
+	#quote {
+		position:relative;
+		z-index:4;
+		margin-left:10%;
+		font-size:15;
+		top:20px;
+	}
+	#intro {
+		margin-top: 5%;
+		margin-left: 7%;
+		margin-right: 8%;
+		margin-bottom: 0%;
+	}
+	#first {
+		height:100%;
+		width:10%;
+		margin-left:90%;
+	}
+
+	#seventh img {
+		display:none;
+	}
+
+	#second {
+		height:10%;
+		width:12%;
+	}
+	#third {
+		margin-left:10%;
+		width:10%;
+		height:13%;
+	}
+}
