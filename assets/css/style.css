@@ -104,16 +104,16 @@ html, body {
 	margin-left:38.5%;
 }
 
-@media (min-width:368px) and (max-width:731px){
+@media (min-width:300px) and (min-height:500px) {
 	#quote {
 		position:relative;
 		z-index:4;
 		margin-left:10%;
 		font-size:15;
-		top:20px;
+		top:60px;
 	}
 	#intro {
-		margin-top: 5%;
+		margin-top: 60%;
 		margin-left: 7%;
 		margin-right: 8%;
 		margin-bottom: 0%;
@@ -129,12 +129,39 @@ html, body {
 	}
 
 	#second {
-		height:10%;
+		height:25%;
 		width:12%;
 	}
 	#third {
-		margin-left:10%;
-		width:10%;
-		height:13%;
+		margin-left:5%;
+		width:15%;
+		height:30%;
 	}
+	#fourth {
+		z-index:1;
+		position:absolute;
+		margin-left:37%;
+		background-color: #D9EAFF;
+		width:25%;
+		height:60%;
+	}
+	#fifth {
+		z-index:6;
+		position:absolute;
+		margin-left:72%;
+		background-color: #B4D4FA;
+		width:25%;
+		height:115%;
+	}
+
+	#sixth {
+		z-index: 7;
+		position:absolute;
+		margin-left:49%;
+		background-color: #F2F8FF;
+		width:25%;
+		height:110%;
+		margin-top: 10%;
+	}
+
 }
