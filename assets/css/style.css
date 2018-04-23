@@ -107,7 +107,7 @@ h3 {
 #nav-bar {
 	z-index:8;
 	position:absolute;
-	margin-top:23%;
+	margin-top:20%;
 	margin-left:38.5%;
 }
 
@@ -127,29 +127,39 @@ h3 {
 	font-size:24px
 }
 
-.shape {
-	grid-area:shape;
-	left:20%;
-	margin-top: 8%;
-	position:absolute;
-	width:10%;
-	height:20%;
-	background-color: #C4C4C4;
-	border-radius:50%;
-}
+/*#do-box h3:hover {
+	width:40%;
+	height:10%;
+	display: inline-block;
+	margin-top:28%;
+	background-color: #B4D4FA;
+	cursor: pointer;
+}*/
 
 .do-container {
 	position:relative;
 }
 
 #do-box h3 {
+	z-index:0;
 	grid-area:orgnametxt;
 	margin-top:25%;
 	font-size: 20;
 	display: inline-block;
 }
 
-.underline-rectangle {
+.circle-photo {
+	position:absolute;
+	width:10%;
+	border-radius: 50%;
+	grid-area:shape;
+	left:20%;
+	margin-top:8%;
+}
+
+
+
+/*.underline-rectangle {
 	z-index:9;
 	width:40%;
 	height:10%;
@@ -157,7 +167,7 @@ h3 {
 	display: inline-block;
 	margin-top:28%;
 	background-color: #B4D4FA;
-}
+}*/
 
 /*1024x768*/
 @media (max-width: 1024px){
