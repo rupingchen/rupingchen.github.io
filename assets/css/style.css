@@ -112,14 +112,38 @@ h3 {
 }
 
 /*Second Page*/
-
 #what-i-do {
-	margin-left:7%;
-	grid-template-columns: 7% 10% 40% 43%;
+	margin-left:10%;
+	display:grid;
+	grid-template-columns: 10% 15% 40% 30%;
 	grid-template-areas: 
 		". whatido . ."
 		". shape orgnametxt ."
 		". shape orgnametxt ."
+}
+
+#what-i-do h3 {
+	grid-area:whatido;
+	font-size:24px
+}
+
+.shape {
+	grid-area:shape;
+	left:20%;
+	margin-top: 8%;
+	position:absolute;
+	width:10%;
+	height:20%;
+	background-color: #C4C4C4;
+	border-radius:50%;
+}
+
+#do-box h3 {
+	grid-area:orgnametxt;
+	margin-top:25%;
+	font-size: 20;
+	display: inline-block;
+
 }
 
 /*1024x768*/
