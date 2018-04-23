@@ -116,6 +116,7 @@ h3 {
 	margin-left:10%;
 	display:grid;
 	grid-template-columns: 10% 15% 40% 30%;
+	/*grid-template-rows:*/ 
 	grid-template-areas: 
 		". whatido . ."
 		". shape orgnametxt ."
@@ -139,11 +140,22 @@ h3 {
 }
 
 #do-box h3 {
+	z-index:8;
 	grid-area:orgnametxt;
 	margin-top:25%;
 	font-size: 20;
 	display: inline-block;
+}
 
+.underline-rectangle {
+	z-index:9;
+	width:15%;
+	height:5%;
+	position:absolute;
+	/*display: inline-block;*/
+	left:32%;
+	margin-top: 10%;
+	background-color: #B4D4FA;
 }
 
 /*1024x768*/
