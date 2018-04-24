@@ -11,9 +11,12 @@ $(document).ready(function() {
 		$(this).html("this site is still under construction");
 		$(this).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 	})
-	$(window).scroll(function() {
-		$("#pointer-rectangle").show();
-
+	// jQuery Function Number 5
+	$("#button1").click(function() {
+		$('html, body').animate({
+			// jQuery Function Number 6
+        scrollTop: $("#what-i-do").offset().top
+    }, 2000);
 	})
 
 })
