@@ -16,7 +16,7 @@ html, body {
 	z-index:4;
 	margin-left:15%;
 	font-size:21;
-	top:60px;
+	top:20px;
 }
 
 #intro {
@@ -38,7 +38,7 @@ h3 {
 	z-index:5;
 	position:fixed;
 	background-color: #D1E6FF;
-	height:100%;
+	height:120%;
 	width:20%;
 	margin-left:90%;
 }
@@ -119,7 +119,7 @@ h3 {
 	grid-template-areas: 
 		". whatido . ."
 		". shape orgnametxt ."
-		". shape orgnametxt ."
+		". shape orgnametxt .";
 }
 
 #what-i-do h3 {
@@ -157,8 +157,6 @@ h3 {
 	margin-top:8%;
 }
 
-
-
 /*.underline-rectangle {
 	z-index:9;
 	width:40%;
@@ -168,6 +166,42 @@ h3 {
 	margin-top:28%;
 	background-color: #B4D4FA;
 }*/
+
+/*Third Page*/
+#what-ive-done {
+	margin-top: 15%;
+	margin-left:10%;
+	display:grid;
+	grid-template-columns: 10% 15% 40% 30%;
+	grid-template-areas: 
+		". whativedone . ."
+		". dshape nametxt ."
+		". dshape nametxt .";
+
+}
+
+#what-ive-done h3 {
+	font-size: 24px;
+	grid-area: whativedone;
+}
+
+.done-container {
+	position:relative;
+}
+
+.done-container h3 {
+	margin-top: 20%;
+	font-size: 20px;
+}
+
+.logo {
+	grid-area:dshape;
+	position:absolute;
+	width:10%;
+	border-radius: 50%;
+	left:20%;
+	margin-top:8%;
+}
 
 /*1024x768*/
 @media (max-width: 1024px){
