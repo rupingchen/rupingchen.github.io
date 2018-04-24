@@ -17,14 +17,11 @@ html, body {
 	margin-left:15%;
 	font-size:21;
 	top:20px;
+	display:none;
 }
 
 #intro {
 	display: none;
-	/*margin-top: 25%;
-	margin-left: 7%;
-	margin-right: 58%;
-	margin-bottom: 20%;*/
 }
 
 h3 {
@@ -112,6 +109,12 @@ h3 {
 	margin-left:38.5%;
 }
 
+#pointer-rectangle {
+	position:absolute;
+	margin-top:25%;
+	background-color: #D1E6FF;
+}
+
 /*Second Page*/
 #what-i-do {
 	margin-left:10%;
@@ -149,6 +152,10 @@ h3 {
 	display: inline-block;
 }
 
+#descrip-1 {
+	display:none;
+}
+
 .circle-photo {
 	position:absolute;
 	width:10%;
@@ -158,15 +165,15 @@ h3 {
 	margin-top:8%;
 }
 
-/*.underline-rectangle {
+.underline-rectangle {
 	z-index:9;
 	width:40%;
 	height:10%;
 	position:absolute;
 	display: inline-block;
-	margin-top:28%;
+	margin-top:30%;
 	background-color: #B4D4FA;
-}*/
+}
 
 /*Third Page*/
 #what-ive-done {
