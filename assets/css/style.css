@@ -176,6 +176,7 @@ h3 {
 	grid-template-areas: 
 		". whativedone . ."
 		". dshape nametxt ."
+		". dshape nametxt ."
 		". dshape nametxt .";
 
 }
@@ -194,13 +195,13 @@ h3 {
 	font-size: 20px;
 }
 
-.logo {
+.dcircle-photo {
 	grid-area:dshape;
-	position:absolute;
-	width:10%;
+	position: absolute;
 	border-radius: 50%;
-	left:20%;
-	margin-top:8%;
+	margin-top:0%;
+	right:70%;
+	width: 10%;
 }
 
 /*1024x768*/
