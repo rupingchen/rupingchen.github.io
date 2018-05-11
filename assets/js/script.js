@@ -19,4 +19,10 @@ $(document).ready(function() {
     }, 2000);
 	})
 
+	// TypeIt Introduction
+	new TypeIt('#intro p', {
+		speed:100,
+		startDelay:6000
+	}).type('I’m a junior at UC Berkeley studying Statistics, currently purusing an interest in design and furthering my passions in creative writing.').break().break().type('To me, writing is a form of artistry that allows me to understand that which seems nebulous -- a soul-searching of sorts. I infrequently write for the Daily Cal and occasionally update this blog.').break().break().type('Feel free to explore this website and should you feel the need, contact me!')
+
 })
