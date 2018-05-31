@@ -1,17 +1,23 @@
 html, body {
     margin: 0%;
     padding:0%;
-    background-color: #CFD4C5;
+    background-color: #29335C;
     font-family: "Raleway";
 }
 
-
-/*First Page*/
-#landing-page{
-	z-index:0;
+.astro-sign {
+	width:5%;
+	height:5%;
+	position:fixed;
+	margin:10% 60% 62% 35%;
 }
 
-#quote {
+
+/*#landing-page{
+	z-index:0;
+}*/
+
+/*#quote {
 	position:relative;
 	z-index:4;
 	margin-left:15%;
@@ -19,8 +25,8 @@ html, body {
 	top:20px;
 	display:none;
 }
-
-#intro {
+*/
+/*#intro {
 	display:none;
 }
 
@@ -30,9 +36,9 @@ h3 {
 
 #intro h3 {
 	font-size: 24;
-}
+}*/
 
-#first{
+/*#first{
 	z-index:5;
 	position:fixed;
 	background-color: #D1E6FF;
@@ -65,9 +71,9 @@ h3 {
 	background-color: #D9EAFF;
 	width:20%;
 	height:60%;
-}
+}*/
 
-#fifth {
+/*#fifth {
 	z-index:6;
 	position:absolute;
 	margin-left:72%;
@@ -97,8 +103,8 @@ h3 {
 	left:57%;
 	top:5%;
 }
-
-.button{
+*/
+/*.button{
 	font-size:17px;
 }
 
@@ -119,7 +125,7 @@ h3 {
 	background-color: #D1E6FF;
 }
 
-/*Second Page*/
+
 #what-i-do {
 	margin-left:10%;
 	display:grid;
@@ -128,21 +134,14 @@ h3 {
 		". whatido . ."
 		". shape orgnametxt ."
 		". shape orgnametxt .";
-}
+}*/
 
-#what-i-do h3 {
+/*#what-i-do h3 {
 	grid-area:whatido;
 	font-size:24px
 }
 
-/*#do-box h3:hover {
-	width:40%;
-	height:10%;
-	display: inline-block;
-	margin-top:28%;
-	background-color: #B4D4FA;
-	cursor: pointer;
-}*/
+
 
 .do-container {
 	position:relative;
@@ -179,7 +178,7 @@ h3 {
 	background-color: #B4D4FA;
 }
 
-/*Third Page*/
+
 #what-ive-done {
 	margin-top: 15%;
 	margin-left:10%;
@@ -218,10 +217,10 @@ h3 {
 
 #Contact {
 	margin-top: 10%;
-}
+}*/
 
-/*1024x768*/
-@media (max-width: 1024px){
+
+/*@media (max-width: 1024px){
 	#quote {
 		margin-left:11%;
 		font-size:20px;
@@ -249,7 +248,7 @@ h3 {
 }
 
 
-/*Mobile */
+
 @media (min-width:300px) and (max-width:500px) {
 	#quote {
 		margin-left:1%;
@@ -307,3 +306,4 @@ h3 {
 		font-size: 10px;
 	}
 }
+*/
