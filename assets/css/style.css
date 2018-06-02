@@ -1,8 +1,12 @@
 html, body {
     margin: 0%;
     padding:0%;
-    background-color: #29335C;
     font-family: "Raleway";
+}
+
+h3{
+	font-family:"Lusitana";
+	font-style: "Regular";
 }
 
 .astro-sign {
@@ -19,15 +23,18 @@ html, body {
 	margin:15% 65% 62% 29.5%;
 }
 
-h3{
-	font-family:"Lusitana";
-	font-style: "Regular";
-}
-
 .page-text{
 	position:fixed;
 	margin:20% 30% 25% 30%;
 }
+
+/*Landing Page*/
+#landing-page{
+	width:auto;
+	height:100%;
+	background-color:#29335C;
+}
+
 
 #intro {
 	color:#C3FBE2;
@@ -36,303 +43,11 @@ h3{
 
 #aquarius {
 	position:fixed;
-	width:5%;
-	height:5%;
-	margin: 2% 60% 67% 37%;
-}
-
-
-/*#landing-page{
-	z-index:0;
-}*/
-
-/*#quote {
-	position:relative;
-	z-index:4;
-	margin-left:15%;
-	font-size:21;
-	top:20px;
-	display:none;
-}
-*/
-/*#intro {
-	display:none;
-}
-
-h3 {
-	font-family: "Lusitana";
-}
-
-#intro h3 {
-	font-size: 24;
-}*/
-
-/*#first{
-	z-index:5;
-	position:fixed;
-	background-color: #D1E6FF;
-	height:120%;
-	width:20%;
-	margin-left:90%;
-}
-
-#second {
-	z-index: 4;
-	position:absolute;
-	height:40%;
 	width:15%;
-	background-color: #D1E6FF;
+	height:15%;
+	margin: 3% 60% 67% 34%;
 }
 
-#third {
-	z-index:3;
-	position:absolute;
-	margin-left:7%;
-	width:20%;
-	height:50%;
-	background-color: #F2F8FF;
-}
-
-#fourth {
-	z-index:1;
-	position:absolute;
-	margin-left:37%;
-	background-color: #D9EAFF;
-	width:20%;
-	height:60%;
-}*/
-
-/*#fifth {
-	z-index:6;
-	position:absolute;
-	margin-left:72%;
-	background-color: #B4D4FA;
-	width:25%;
-	height:115%;
-}
-
-#sixth {
-	z-index: 7;
-	position:absolute;
-	margin-left:49%;
-	background-color: #F2F8FF;
-	width:25%;
-	height:110%;
-	margin-top: 10%;
-}
-
-
-#seventh img  {
-	z-index:8;
-	position:absolute;
-	width:auto;
-	height:auto;
-	max-width: 34%;
-	max-height: 95%;
-	left:57%;
-	top:5%;
-}
-*/
-/*.button{
-	font-size:17px;
-}
-
-#nav-bar {
-	z-index:8;
-	position:absolute;
-	margin-top:20%;
-	margin-left:38.5%;
-}
-
-.button:hover {
-	cursor: pointer;
-}
-
-#pointer-rectangle {
-	position:absolute;
-	margin-top:25%;
-	background-color: #D1E6FF;
-}
-
-
-#what-i-do {
-	margin-left:10%;
-	display:grid;
-	grid-template-columns: 10% 15% 40% 30%;
-	grid-template-areas: 
-		". whatido . ."
-		". shape orgnametxt ."
-		". shape orgnametxt .";
-}*/
-
-/*#what-i-do h3 {
-	grid-area:whatido;
-	font-size:24px
-}
-
-
-
-.do-container {
-	position:relative;
-}
-
-#do-box h3 {
-	z-index:0;
-	grid-area:orgnametxt;
-	margin-top:25%;
-	font-size: 20;
-	display: inline-block;
-}
-
-#descrip-1 {
+#water {
 	display:none;
 }
-
-.circle-photo {
-	position:absolute;
-	width:10%;
-	border-radius: 50%;
-	grid-area:shape;
-	left:20%;
-	margin-top:8%;
-}
-
-.underline-rectangle {
-	z-index:9;
-	width:40%;
-	height:10%;
-	position:absolute;
-	display: inline-block;
-	margin-top:30%;
-	background-color: #B4D4FA;
-}
-
-
-#what-ive-done {
-	margin-top: 15%;
-	margin-left:10%;
-	display:grid;
-	grid-template-columns: 10% 15% 40% 30%;
-	grid-template-areas: 
-		". whativedone . ."
-		". dshape nametxt ."
-		". dshape nametxt ."
-		". dshape nametxt .";
-
-}
-
-#what-ive-done h3 {
-	font-size: 24px;
-	grid-area: whativedone;
-}
-
-.done-container {
-	position:relative;
-}
-
-.done-container h3 {
-	margin-top: 20%;
-	font-size: 20px;
-}
-
-.dcircle-photo {
-	grid-area:dshape;
-	position: absolute;
-	border-radius: 50%;
-	right:70%;
-	width: 10%;
-	height:20%;
-}
-
-#Contact {
-	margin-top: 10%;
-}*/
-
-
-/*@media (max-width: 1024px){
-	#quote {
-		margin-left:11%;
-		font-size:20px;
-		top:60px;
-	}
-	#intro {
-		margin-left: 7%;
-		margin-right: 55%;
-		margin-bottom: 0%;
-	}
-	#intro h3 {
-		font-size: 24px;
-	}
-	#third {
-		margin-left:5%;
-	}
-
-	#nav-bar {
-		margin-top:37%;
-		margin-left:38.5%;
-	}
-	.button {
-		font-size: 14px;
-	}
-}
-
-
-
-@media (min-width:300px) and (max-width:500px) {
-	#quote {
-		margin-left:1%;
-		font-size:10;
-		top:60px;
-	}
-	#intro {
-		margin-top: 65%;
-		margin-left: 7%;
-		margin-right: 8%;
-		margin-bottom: 0%;
-	}
-	#intro h3 {
-		font-size: 15;
-	}
-	#first {
-		width:5%;
-		margin-left:95%;
-	}
-	#seventh img {
-		display:none;
-	}
-
-	#second {
-		height:25%;
-		width:12%;
-	}
-	#third {
-		margin-left:7%;
-		width:15%;
-		height:30%;
-	}
-	#fourth {
-		margin-left:37%;
-		width:25%;
-		height:35%;
-	}
-	#fifth {
-		margin-left:72%;
-		width:25%;
-		height: 38%;
-	}
-	#sixth {
-		margin-left:58%;
-		width:20%;
-		height:30%;
-		margin-top: 0%;
-	}
-
-	#nav-bar {
-		margin-top:40%;
-		margin-left:39%;
-	}
-	.button {
-		font-size: 10px;
-	}
-}
-*/
