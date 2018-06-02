@@ -9,7 +9,36 @@ html, body {
 	width:5%;
 	height:5%;
 	position:fixed;
-	margin:10% 60% 62% 35%;
+	margin:15% 60% 62% 35%;
+}
+
+.planet {
+	width:5%;
+	height:5%;
+	position:fixed;
+	margin:15% 65% 62% 29.5%;
+}
+
+h3{
+	font-family:"Lusitana";
+	font-style: "Regular";
+}
+
+.page-text{
+	position:fixed;
+	margin:20% 30% 25% 30%;
+}
+
+#intro {
+	color:#C3FBE2;
+	mix-blend-mode: lighten;
+}
+
+#aquarius {
+	position:fixed;
+	width:5%;
+	height:5%;
+	margin: 2% 60% 67% 37%;
 }
 
 
