@@ -52,11 +52,21 @@ h3{
 	display:none;
 }
 
-@keyframes lstroketosstroke {
-	from {stroke-dasharray: 20; stroke-dashoffset: 10;}
-	to {stroke-dasharray: 0; stroke-dashoffset: 1;}
+#jar {
+	
 }
 
-#jar {
-	animation: lstroketosstroke;
+/*Resume*/
+#resume {
+	width:auto;
+	height:100%;
+	background-color:#90BEDE;
+}
+
+#daily-cal {
+	color:#29335C;
+}
+
+#asc {
+	margin:15.5% 65% 62% 30.5%;
 }
