@@ -51,3 +51,12 @@ h3{
 #water {
 	display:none;
 }
+
+@keyframes lstroketosstroke {
+	from {stroke-dasharray: 20; stroke-dashoffset: 10;}
+	to {stroke-dasharray: 0; stroke-dashoffset: 1;}
+}
+
+#jar {
+	animation: lstroketosstroke;
+}
