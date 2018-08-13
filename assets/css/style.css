@@ -62,8 +62,8 @@ clear: both;
     height: 400px;
     background: white;
     display: inline-block;
-    margin-left: 70px;
-    margin-top: 70px;
+    margin-left: 6%;
+    margin-top: 6%;
     border-radius: 10%;
     transition: 2s;
 }
@@ -117,18 +117,6 @@ clear: both;
     box-shadow: none;
 }
 
- 
-
-
-
-
-#landing-lightblue { 
-    background: #118AB2;
-}
-
-#landing-blue { 
-    background: #073B4C;
-}
 
 /* Question 2 */
 /*#question2 {
