@@ -1,14 +1,20 @@
 $(document).ready(function() {
-    $(".about_coloring").click(function() {
+    $(".design_coloring").click(function() {
         for (let value of Array.from($(".landing-re-color"))){
             let hex_val = value.textContent;
             $(value).attr("style", "background:" + hex_val);
         }
     })
-    $(".design_coloring").click(function() {
-        for (let value of Array.from($(".landing-re-color"))){
-            let id = $(value).attr('id');
-            $(value).attr('style','background:rgb(30,' + (id*40) + "," + (id*60) + ")");
-        }
+    $(".writing_coloring").click(function() {
+            for (let value of Array.from($(".landing-re-color"))){
+                let id = $(value).attr('id');
+                $(value).attr('style','background:rgb(185,'+ (id*95) + "," + (id*150) + ")");
+            }
+    })
+    $(".about_coloring").click(function() {
+            for (let value of Array.from($(".landing-re-color"))){
+                let id = $(value).attr('id');
+                $(value).attr('style','background:rgb(5,'+ (id*65) + "," + (id*195) + ")");
+            }
     })
 })
