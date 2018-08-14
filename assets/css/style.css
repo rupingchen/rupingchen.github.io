@@ -46,6 +46,9 @@ clear: both;
     text-align: center;
     height: 500px;
     z-index: 2;
+    justify-content: space-around;
+	display:flex;
+	flex-wrap:wrap;
 }
 .landing-button {
     width: 80px;
@@ -53,17 +56,14 @@ clear: both;
     display: inline-block;
     border-radius: 10%;
     cursor: pointer;
-    margin: 20px;
     z-index: 3; 
 }
 
 .landing-re-color {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background: white;
     display: inline-block;
-    margin-left: 6%;
-    margin-top: 6%;
     border-radius: 10%;
     transition: 2s;
 }
@@ -71,11 +71,11 @@ clear: both;
     display: none;
 }
 #landing-div-spine {
-    width: 80%;
-    height: 250px;
+	justify-content: center;
+	display:flex;
+	flex-wrap:wrap;
     position: relative;
     margin: 0 auto;
-    top: 15%;
 }
 
 .landing-button:active {
