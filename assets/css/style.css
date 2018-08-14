@@ -42,7 +42,7 @@ clear: both;
     width: 100%;
     position: absolute;
     top: 15%;
-    text-align: center;
+    text-align: justify;
     z-index: 2;
     justify-content: center;
 	display:flex;
@@ -51,6 +51,7 @@ clear: both;
 .landing-button {
     width: 80px;
     height: 80px;
+    margin: 0.5%;
     display: inline-block;
     border-radius: 10%;
     cursor: pointer;
@@ -64,6 +65,7 @@ clear: both;
     display: inline-block;
     border-radius: 10%;
     transition: 2s;
+    margin: 0.5%;
 }
 .landing-re-color > div {
     display: none;
@@ -73,7 +75,7 @@ clear: both;
 	display:flex;
 	flex-wrap:wrap;
     position: relative;
-    margin: 10% auto;
+    top:15%;
 }
 
 .landing-button:active {
