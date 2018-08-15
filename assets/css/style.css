@@ -53,20 +53,22 @@ p{
 }
 
 #landing-button-spine {
-    width: 100%;
-    position: absolute;
-    text-align: justify;
+   /* width: 100%;*/
+    position: fixed;
+   /* text-align: justify;*/
     z-index: 2;
-    justify-content: center;
+    /*justify-content: center;*/
 	display:flex;
 	flex-wrap:wrap;
-	top: 35%;
+	top: 40%;
+	left:95%;
 }
 
+/*earlier versions of iPhone*/
 @media (min-width: 300px) and (max-width: 330px) {
 	#landing-button-spine {
-		top:77%;
-	}
+		margin-top: 50%;
+	}	
 }
 
 @media (min-width: 340px) and (max-width: 380px) {
@@ -77,21 +79,27 @@ p{
 
 @media (min-width: 390px) and (max-width: 450px) {
 	#landing-button-spine {
-		top:57%;
+		top:58%;
 	}
 }
 
-@media (height: 812px) {
+@media (min-height: 812px) {
 	#landing-button-spine {
-		top:55%;
+		top:53%;
+	}
+}
+
+@media (max-width: 900px) {
+	#landing-button-spine {
+		top:25%;
 	}
 }
 
 .landing-button {
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
     margin: 0.5%;
-    display: inline-block;
+  /*  display: inline-block;*/
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; 
@@ -99,7 +107,7 @@ p{
 
 .landing-re-color {
     width: 550px;
-    height: 450px;
+    height: 350px;
     background: white;
     display: inline-block;
     border-radius: 10%;
@@ -114,7 +122,6 @@ p{
 	display:flex;
 	flex-wrap:wrap;
     position: relative;
-    top:15%;
 }
 
 .landing-button:active {
