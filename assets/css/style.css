@@ -34,24 +34,19 @@ clear: both;
 }
 
 #nav-bar{
-	position:absolute;
+	position:relative;
 	width:100%;
-	height:20%;
-	background-color:#75F0C7; 
+	height:15%;
+	background-color:#B2DDF7; 
 }
 
-h3{
+#landing-text{
 	text-align: center;
-	margin-top:%;
 }
 
-#landing-text p {
-	text-align:center;
-}
 #landing-button-spine {
     width: 100%;
     position: absolute;
-    top: 15%;
     text-align: justify;
     z-index: 2;
     justify-content: center;
@@ -69,7 +64,7 @@ h3{
 }
 
 .landing-re-color {
-    width: 450px;
+    width: 550px;
     height: 450px;
     background: white;
     display: inline-block;
