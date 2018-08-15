@@ -52,7 +52,7 @@ clear: both;
     justify-content: center;
 	display:flex;
 	flex-wrap:wrap;
-	margin-top: -74%;
+	top: 35%;
 }
 .landing-button {
     width: 80px;
