@@ -49,19 +49,20 @@ p{
 }*/
 
 #landing-text{
-	text-align: center;
+	text-align: left;
+	margin-left:14%;
 }
 
 #landing-button-spine {
    /* width: 100%;*/
     position: fixed;
-   /* text-align: justify;*/
-    z-index: 2;
+   /* text-align: justify;
+*/    z-index: 2;
     /*justify-content: center;*/
-	display:flex;
-	flex-wrap:wrap;
-	top: 40%;
-	left:95%;
+	/*display:flex;*/
+	/*flex-wrap:wrap;*/
+	top: 20%;
+	left:90%;
 }
 
 /*earlier versions of iPhone*/
@@ -96,17 +97,17 @@ p{
 }
 
 .landing-button {
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
     margin: 0.5%;
-  /*  display: inline-block;*/
+    /*display: inline-block;*/
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; 
 }
 
 .landing-re-color {
-    width: 550px;
+    width: 450px;
     height: 350px;
     background: white;
     display: inline-block;
