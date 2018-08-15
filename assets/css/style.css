@@ -33,6 +33,14 @@ clear: both;
     transition: 0.8s;
 }
 
+h3 {
+	font-size: 30px;
+}
+
+p{
+	font-size: 24px;
+}
+
 /*#nav-bar{
 	position:relative;
 	width:100%;
@@ -52,7 +60,7 @@ clear: both;
     justify-content: center;
 	display:flex;
 	flex-wrap:wrap;
-	top: 23%;
+	top: 35%;
 }
 .landing-button {
     width: 75px;
