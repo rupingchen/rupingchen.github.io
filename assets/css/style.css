@@ -62,6 +62,31 @@ p{
 	flex-wrap:wrap;
 	top: 35%;
 }
+
+@media (min-width: 300px) and (max-width: 330px) {
+	#landing-button-spine {
+		top:77%;
+	}
+}
+
+@media (min-width: 340px) and (max-width: 380px) {
+	#landing-button-spine {
+		top:65%;
+	}
+}
+
+@media (min-width: 390px) and (max-width: 450px) {
+	#landing-button-spine {
+		top:57%;
+	}
+}
+
+@media (height: 812px) {
+	#landing-button-spine {
+		top:55%;
+	}
+}
+
 .landing-button {
     width: 75px;
     height: 75px;
@@ -130,175 +155,3 @@ p{
     opacity: 0.6;
     box-shadow: none;
 }
-
-
-/* Question 2 */
-/*#question2 {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-}
-
-.q2-square {
-    background: #2f353f;
-}
-
-#q2-nav-bar {
-    width: 100%;
-    top: 15%;
-    position: relative;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.q2-nav-item {
-    height: 40;
-    width: 125px;
-    display: inline-block;
-    cursor: pointer;
-    font-size: 18px;
-    line-height: 40px;
-    transition: 0.2s;
-    margin: 0px 5px;
-    letter-spacing: 2px;
-    transition: 0.2s all;
-}
-
-
-.q2-inactive {
-    border: 2px solid #2f353f;
-    color: #2f353f;
-}
-
-.q2-inactive:hover {
-    transform: scale(1.1, 1.1);
-}
-
-.q2-active {
-    border: 2px solid #2f353f;
-    background: #2f353f;
-    color: white;
-}
-
-.q2-active:hover {
-    transform: scale(1.1, 1.1);
-}
-
-#q2-content {
-    height: 70%;
-    width: 50%;
-    position: relative;
-    float: left;
-}
-
-.q2-ingredient {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    border-radius: 10%;
-    margin: 20px;
-    z-index: 3; 
-    background-color: rgb(12, 11, 9);
-}
-
-#q2-output {
-    width: 120px;
-    height: 120px;
-    display: inline-block;
-    border-radius: 10%;
-    z-index: 3; 
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    transition: 0.4s;
-}
-
-#q2-output-body {
-    width: 50%;
-    height: 70%;
-    display: inline-block;
-    position: relative;
-}
-
-#q2-ing-1 {
-    height: 60px;
-    background: rgb(100, 0, 10);
-}
-
-#q2-ing-2 {
-    width: 200px;
-    background: rgb(0, 10, 25);
-}
-
-#q2-ing-3 {
-    background: rgb(10, 20, 40);
-    height: 40px;
-
-}
-*/
-
-
-
-
-/*html, body {
-    margin: 0%;
-    padding:0%;
-    font-family: "Raleway";
-    background-color:#29335C;
-}
-
-h3{
-	font-family:"Lusitana";
-	font-style: "Regular";
-}
-
-.astro-sign {
-	width:5%;
-	height:5%;
-	position:fixed;
-	margin:15% 60% 62% 35%;
-}
-
-.planet {
-	width:5%;
-	height:5%;
-	position:fixed;
-	margin:15% 65% 62% 29.5%;
-}
-
-.page-text{
-	position:fixed;
-	margin:20% 30% 25% 30%;
-}
-
-
-#landing-page{
-	
-	width:auto;
-	height:300%;
-}
-
-
-#intro {
-	color:#C3FBE2;
-	mix-blend-mode: lighten;
-}
-
-#aquarius {
-	position:fixed;
-	width:15%;
-	height:15%;
-	margin: 3% 60% 67% 34%;
-}
-
-#water {
-	display:none;
-}
-
-#jar {
-	
-}*/
