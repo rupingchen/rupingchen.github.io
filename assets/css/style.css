@@ -1,9 +1,9 @@
 body, html {	/*the outer layer of the site and global style attributes*/
-font-family: "Raleway",sans-serif;
+font-family: "Raleway", "Lato",sans-serif;
 margin-left: 0px;
 height: 100%;
 width: 100%;
-background: #f7f5f2;
+background: #ffffff;
 position: relative;
 }
 
@@ -34,6 +34,7 @@ clear: both;
 }
 
 h3 {
+	font-family:"Lato";
 	font-size: 30px;
 }
 
@@ -61,45 +62,8 @@ p{
     /*justify-content: center;*/
 	/*display:flex;*/
 	/*flex-wrap:wrap;*/
-	top: 20%;
+	top: 15%;
 	left:90%;
-}
-
-/*earlier versions of iPhone*/
-@media (min-width: 300px) and (max-width: 330px) {
-	#landing-button-spine {
-		margin-top: 50%;
-	}	
-}
-
-@media (min-width: 340px) and (max-width: 380px) {
-	#landing-button-spine {
-		top:65%;
-	}
-}
-
-@media (min-width: 390px) and (max-width: 450px) {
-	#landing-button-spine {
-		top:58%;
-	}
-}
-
-@media (min-height: 812px) {
-	#landing-button-spine {
-		top:53%;
-	}
-}
-
-@media (max-width: 900px) {
-	#landing-button-spine {
-		top:25%;
-	}
-}
-
-@media (min-width: 1440px) {
-	#landing-text{
-		margin-left: 15%;
-	}
 }
 
 .landing-button {
@@ -111,10 +75,21 @@ p{
     z-index: 3; 
 }
 
+#landing-photo{
+	position: absolute;
+	top:7%;
+	left:55%;
+}
+
+.button-text{
+	text-align: center;
+	font-size: 18px;
+}
+
 .landing-re-color {
     width: 550px;
     height: 350px;
-    background: white;
+    background: #e2e2e2;
     display: inline-block;
     border-radius: 10%;
     transition: 2s;
@@ -167,4 +142,41 @@ p{
 .inactive { 
     opacity: 0.6;
     box-shadow: none;
+}
+
+/*earlier versions of iPhone*/
+@media (min-width: 300px) and (max-width: 330px) {
+	#landing-button-spine {
+		margin-top: 50%;
+	}	
+}
+
+@media (min-width: 340px) and (max-width: 380px) {
+	#landing-button-spine {
+		top:65%;
+	}
+}
+
+@media (min-width: 390px) and (max-width: 450px) {
+	#landing-button-spine {
+		top:58%;
+	}
+}
+
+@media (min-height: 812px) {
+	#landing-button-spine {
+		top:53%;
+	}
+}
+
+@media (max-width: 900px) {
+	#landing-button-spine {
+		top:25%;
+	}
+}
+
+@media (min-width: 1440px) {
+	#landing-text{
+		margin-left: 15%;
+	}
 }
