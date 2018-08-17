@@ -5,8 +5,8 @@ $(document).ready(function() {
             $(value).parent().attr("style", "background:" + hex_val);
         }
         for (let text of Array.from($(".landing-re-text"))){
-            let text_content = text.textContent;
-            $(text).html(text_content)
+            let text_content = text.firstElementChild.textContent;
+            $(text).html(text_content);
         }
     })
     $(".writing_coloring").click(function() {
@@ -14,9 +14,9 @@ $(document).ready(function() {
                 let id = $(value).attr('id');
                 $(value).attr('style','background:rgb(185,'+ (id*95) + "," + (id*150) + ")");
             }
-            for (let text of Array.from($(".landing-re-text"))){
-                let text_content = "Daily Californian" + "TutorMing" + "mildlysatiricalconfessions" + "misc."
-                $(text).html(text_content)
+            for (let text of Array.from($(".landing-re-text .writing-text"))){
+                let text_content = text.textContent;
+                $(text).html(text_content);
             }
     })
     $(".about_coloring").click(function() {
