@@ -49,13 +49,8 @@ p{
 }
 
 #landing-button-spine {
-   /* width: 100%;*/
     position: fixed;
-   /* text-align: justify;
-*/  z-index: 2;
-    /*justify-content: center;*/
-	/*display:flex;*/
-	/*flex-wrap:wrap;*/
+    z-index: 2;
 	top: 15%;
 	left:90%;
 }
@@ -63,7 +58,6 @@ p{
 .landing-button {
     width: 75px;
     height: 75px;
-    /*display: inline-block;*/
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; 
@@ -82,42 +76,58 @@ p{
 }
 
 .landing-re-color {
-    width: 550px;
+	font-family: "Lato";
+    width: 43%;
     height: 350px;
-    background: #e2e2e2;
-    display: inline-block;
+    background: #e0f2ff;
+    align-content: center;
     border-radius: 10%;
     transition: 2s;
     margin: 0.5%;
     z-index: 0;
+    position: relative;
+}
+
+img{
+	display: none;
+}
+
+
+.box-inner-rectangle{
+	position: absolute;
+	width:50%;
+	height: 290px;
+	background-color: #e0f2ff;
+	z-index: 100;
+	border-radius:10%;
+	margin-top:2.5%;
+	margin-left:5%;
+	display:none;
+}
+
+.box-inner-rectangle:hover{
+	width:90%;
+	transition-property: width, height;
+    transition-timing-function: cubic-bezier(.18,.11,.23,.59);
+    transition-duration: 2s;
+    -webkit-transition-property: width, height; /* Safari */
+    -webkit-transition-duration: 1s; /* Safari */
 }
 
 .landing-re-color > .code {
     display: none;
 }
 
-/*.design-re-text{
-	z-index:2;
-	display:inline-block;
-	text-align: center;
-	margin:40%;
-	transition: 3s;
-	display:none;
-}
-
-.writing-re-text{
-	z-index:3;
-	display:inline-block;
-	text-align: center;
-	margin:40%;
-	display:none;
-}*/
 
 .design-re-text > div {
 	display:none;
 }
 
 .writing-re-text > div {
+	display:none;
+}
+
+.about-re-text > div {
 	display:none;
 }
 
