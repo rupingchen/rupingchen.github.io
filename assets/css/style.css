@@ -35,11 +35,13 @@ clear: both;
 
 h3 {
 	font-family:"Lato";
-	font-size: 30px;
+	/*font-size: 30px; for my computer screen*/
+	font-size: 20px;
 }
 
 p{
-	font-size: 24px;
+	/*font-size: 24px; for my computer screen*/
+	font-size: 18px;
 }
 
 #landing-text{
@@ -49,18 +51,33 @@ p{
 }
 
 #landing-button-spine {
-    position: fixed;
+    /*position: fixed;
     z-index: 2;
-	top: 15%;
-	left:85%;
+	top: 10%;
+	left:75%; for my computer screen*/
+	z-index:2;
+	top:-4.5%;
+	position:absolute;
+	right:44%;
+
 }
 
 .landing-button {
-    width: 75px;
+    /*width: 75px;
     height: 75px;
     border-radius: 10%;
     cursor: pointer;
+    z-index: 3; for my computer screen */
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    cursor: pointer;
     z-index: 3; 
+    display: inline-block;
+}
+
+#landing-button-spine h3{
+	display: none;
 }
 
 #landing-photo{
@@ -72,15 +89,25 @@ p{
 
 .button-text{
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 }
 
-.landing-re-color {
-	font-family: "Lato";
+.landing-re-color img {
+	/*font-family: "Lato";
     width: 43%;
     height: 350px;
     background: #e0f2ff;
-    align-content: center;
+    display: inline-block;
+    border-radius: 10%;
+    transition: 2s;
+    margin: 0.5%;
+    z-index: 0;
+    position: relative; for my computer screen*/
+    font-family: "Lato";
+    width: 320px;
+    height: 320px;
+    /*background: #e0f2ff;*/
+    display: inline-block;
     border-radius: 10%;
     transition: 2s;
     margin: 0.5%;
@@ -88,7 +115,34 @@ p{
     position: relative;
 }
 
-img{
+.landing-re-color{
+	/*font-family: "Lato";
+    width: 43%;
+    height: 350px;
+    background: #e0f2ff;
+    display: inline-block;
+    border-radius: 10%;
+    transition: 2s;
+    margin: 0.5%;
+    z-index: 0;
+    position: relative; for my computer screen*/
+    font-family: "Lato";
+    width: 320px;
+    height: 320px;
+    /*background: #e0f2ff;*/
+    display: inline-block;
+    border-radius: 10%;
+    transition: 2s;
+    margin: 0.5%;
+    z-index: -1;
+    position: relative;
+}
+
+.box-header{
+	z-index:4;
+}
+
+#landing-photo{
 	display: none;
 }
 
@@ -136,6 +190,7 @@ img{
 	display:flex;
 	flex-wrap:wrap;
     position: relative;
+    top:10%;
 }
 
 .landing-button:active {
@@ -178,7 +233,7 @@ img{
 }
 
 /*earlier versions of iPhone*/
-@media (min-width: 300px) and (max-width: 330px) {
+/*@media (min-width: 300px) and (max-width: 330px) {
 	#landing-button-spine {
 		margin-top: 50%;
 	}	
@@ -212,4 +267,4 @@ img{
 	#landing-text{
 		margin-left: 15%;
 	}
-}
+}*/
