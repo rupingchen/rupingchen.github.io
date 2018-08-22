@@ -92,7 +92,7 @@ p{
 	font-size: 14px;
 }
 
-.landing-re-color img {
+.landing-re-color #background-image {
 	/*font-family: "Lato";
     width: 43%;
     height: 350px;
@@ -106,7 +106,7 @@ p{
     font-family: "Lato";
     width: 320px;
     height: 320px;
-    /*background: #e0f2ff;*/
+    background: #ffffff;
     display: inline-block;
     border-radius: 10%;
     transition: 2s;

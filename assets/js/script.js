@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    for (let value of Array.from($(".design-img-src"))){
+            let img_src = value.textContent;
+            $("#background-image").attr('style', "background-image: url('" + img_src + "')");
+        }
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
