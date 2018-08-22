@@ -168,10 +168,17 @@ p{
     -webkit-transition-duration: 1s; /* Safari */
 }
 
-.landing-re-color > .code {
+.landing-re-color > .design-img-src {
     display: none;
 }
 
+.landing-re-color > .writing-img-src {
+    display: none;
+}
+
+.landing-re-color > .about-img-src {
+    display: none;
+}
 
 .design-re-text > div {
 	display:none;

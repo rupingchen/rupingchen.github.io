@@ -3,9 +3,9 @@ $(document).ready(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
         $(".design-re-text").attr("style", "display:inline");
-        for (let value of Array.from($(".landing-re-color .code"))){
-            let hex_val = value.textContent;
-            $(value).parent().attr("style", "background:" + hex_val);
+        for (let value of Array.from($(".design-img-src"))){
+            let img_src = value.textContent;
+            $("#background-image").attr('style', "background-image: url('" + img_src + "')");
         }
         for (let text of Array.from($(".design-re-text .box-header"))){
             let text_content = text.textContent;
@@ -16,9 +16,9 @@ $(document).ready(function() {
             $(".design-re-text").attr("style", "display:none");
             $(".about-re-text").attr("style", "display:none");
             $(".writing-re-text").attr("style", "display:inline");
-            for (let value of Array.from($(".landing-re-color"))){
-                let id = $(value).attr('id');
-                $(value).attr('style','background:rgb(85,'+ (id*95) + "," + (id*150) + ")");
+            for (let value of Array.from($(".writing-img-src"))){
+                let img_src = value.textContent;
+                $("#background-image").attr('style', "background-image: url('" + img_src + "')");
             }
             for (let text of Array.from($(".writing-re-text .box-header"))){
                 let text_content = text.textContent;
