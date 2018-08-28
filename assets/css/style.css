@@ -92,7 +92,7 @@ p{
 	font-size: 14px;
 }
 
-.landing-re-color #background-image {
+.change-background {
 	/*font-family: "Lato";
     width: 43%;
     height: 350px;
@@ -111,7 +111,7 @@ p{
     border-radius: 10%;
     transition: 2s;
     margin: 0.5%;
-    z-index: 0;
+    z-index: -1;
     position: relative;
 }
 
@@ -149,14 +149,15 @@ p{
 
 .box-inner-rectangle{
 	position: absolute;
-	width:50%;
-	height: 290px;
+	width:155px;
+	height: 310px;
 	background-color: #e0f2ff;
 	z-index: 100;
 	border-radius:10%;
 	margin-top:2.5%;
-	margin-left:5%;
-	display:none;
+	margin-left:0.5%;
+	opacity:0.75;
+	/*display:none;*/
 }
 
 .box-inner-rectangle:hover{
