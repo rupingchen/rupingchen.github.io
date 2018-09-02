@@ -21,7 +21,7 @@ $(document).ready(function() {
             $(".about-re-text").attr("style", "display:none");
             $(".writing-re-text").attr("style", "display:inline");
             for (let box of Array.from($(".landing-re-color"))){
-                let img_src = box.children[4].textContent;
+                let img_src = box.children[3].textContent;
                 $(box).attr('style', "background-image: url('" + img_src + "')");
             }
             for (let text of Array.from($(".writing-re-text .box-header"))){

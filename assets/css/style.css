@@ -68,13 +68,14 @@ p{
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; for my computer screen */
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; 
     display: inline-block;
 }
+
 
 #landing-button-spine h3{
 	display: none;
@@ -116,9 +117,12 @@ p{
 }
 
 .box-header{
-    position: absolute;
-	z-index:13;
-    margin-top: 10%;
+    position:absolute;
+    display: inline-block;
+}
+
+.box-header p{
+    z-index:5;
 }
 
 #landing-photo{
@@ -138,12 +142,12 @@ p{
     display: inline-block;
 }
 
-.box-inner-rectangle:hover{
+/*.box-inner-rectangle:hover{
     transition-property: width;
     transition-timing-function: cubic-bezier(.18,.11,.23,.59);
     transition-duration: 2s;
 }
-
+*/
 /*.box-inner-rectangle:hover{	
     width:90%;
 	transition-property: width;
@@ -216,6 +220,10 @@ p{
 
 #landing-about { 
     background: #A1C6EA;
+}
+
+#landing-teaching{
+    background: #C2C1C2;
 }
 
 
