@@ -1,14 +1,8 @@
 $(document).ready(function() {
     for (let box of Array.from($(".landing-re-color"))){
         let img_src = box.children[2].textContent;
-        // console.log(img_src)
         $(box).attr('style', "background-image: url('" + img_src + "')");
     }
-    // var img_src_test = Array.from($(".design-img-src"));
-    // let img_src_t0 = img_src_test[0].textContent;
-    // let img_src_t1 = img_src_test[1].textContent;
-    // $("background-image-first").attr('style', "background-image: url('" + img_src_t0 + "')");
-    // $("#background-image-second").attr('style', "background-image: url('" + img_src_t1 + "')");
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");

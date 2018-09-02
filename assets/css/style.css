@@ -92,29 +92,6 @@ p{
 	font-size: 14px;
 }
 
-.change-background {
-	/*font-family: "Lato";
-    width: 43%;
-    height: 350px;
-    background: #e0f2ff;
-    display: inline-block;
-    border-radius: 10%;
-    transition: 2s;
-    margin: 0.5%;
-    z-index: 0;
-    position: relative; for my computer screen*/
-    font-family: "Lato";
-    width: 320px;
-    height: 320px;
-    background: #ffffff;
-    display: inline-block;
-    border-radius: 10%;
-    transition: 2s;
-    margin: 0.5%;
-    z-index: -1;
-    position: relative;
-}
-
 .landing-re-color{
 	/*font-family: "Lato";
     width: 43%;
@@ -139,7 +116,9 @@ p{
 }
 
 .box-header{
-	z-index:4;
+    position: absolute;
+	z-index:13;
+    margin-top: 10%;
 }
 
 #landing-photo{
@@ -150,24 +129,29 @@ p{
 .box-inner-rectangle{
 	position: absolute;
 	width:155px;
-	height: 310px;
+	height: 320px;
 	background-color: #e0f2ff;
-	z-index: 100;
-	border-radius:10%;
-	margin-top:2.5%;
-	margin-left:0.5%;
-	opacity:0.75;
-	/*display:none;*/
+	z-index: 3;
+	border-radius:17%;
+	opacity:0.8;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .box-inner-rectangle:hover{
-	width:90%;
-	transition-property: width, height;
+    transition-property: width;
     transition-timing-function: cubic-bezier(.18,.11,.23,.59);
     transition-duration: 2s;
-    -webkit-transition-property: width, height; /* Safari */
-    -webkit-transition-duration: 1s; /* Safari */
 }
+
+/*.box-inner-rectangle:hover{	
+    width:90%;
+	transition-property: width;
+    transition-timing-function: cubic-bezier(.18,.11,.23,.59);
+    transition-duration: 2s;
+    -webkit-transition-property: width, height; 
+    -webkit-transition-duration: 2s; 
+}*/
 
 .landing-re-color > .design-img-src {
     display: none;
