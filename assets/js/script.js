@@ -3,6 +3,11 @@ $(document).ready(function() {
         let img_src = box.children[2].textContent;
         $(box).attr('style', "background-image: url('" + img_src + "')");
     }
+    for (let text of Array.from($(".design-re-text .box-header"))){
+        let text_content = text.textContent;
+        $(text).parent().html(text_content);
+    }
+    $(".design-re-text").attr('style', "color:#ffffff");
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
@@ -11,10 +16,7 @@ $(document).ready(function() {
             let img_src = box.children[2].textContent;
             $(box).attr('style', "background-image: url('" + img_src + "')");
         }
-        for (let text of Array.from($(".design-re-text .box-header"))){
-            let text_content = text.textContent;
-            $(text).parent().html(text_content);
-        }
+        $(".design-re-text").attr('style', "color:#ffffff");
     })
     $(".writing_coloring").click(function() {
             $(".design-re-text").attr("style", "display:none");
@@ -28,6 +30,7 @@ $(document).ready(function() {
                 let text_content = text.textContent;
                 $(text).parent().html(text_content);
             }
+            $(".writing-re-text").attr('style', "color:#ffffff");
     })
     $(".about_coloring").click(function() {
         $(".about-re-text").attr("style", "display:inline");
@@ -41,5 +44,6 @@ $(document).ready(function() {
                 let text_content = text.textContent;
                 $(text).parent().html(text_content);
             }
+            $(".about-re-text").attr('style', "color:#ffffff");
     })
 })

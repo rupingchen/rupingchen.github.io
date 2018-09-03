@@ -1,5 +1,5 @@
 body, html {	/*the outer layer of the site and global style attributes*/
-font-family: "Raleway", "Lato",sans-serif;
+font-family: "Poppins", "Lato",sans-serif;
 margin-left: 0px;
 height: 100%;
 width: 100%;
@@ -33,6 +33,10 @@ clear: both;
     transition: 0.8s;
 }
 
+#landing-page a{
+    cursor:pointer;
+}
+
 h3 {
 	font-family:"Lato";
 	/*font-size: 30px; for my computer screen*/
@@ -44,11 +48,23 @@ p{
 	font-size: 18px;
 }
 
+#name-bar-text {
+    margin-left: 6.5%;
+}
+
+#name-bar-text p{
+    display: inline-block;
+}
+
 #landing-text{
 	text-align: left;
 	margin-left:6.5%;
 	z-index:2;
 }
+
+/*#landing-text p{
+    color:#ffffff;
+}*/
 
 #landing-button-spine {
     /*position: fixed;
@@ -56,9 +72,10 @@ p{
 	top: 10%;
 	left:75%; for my computer screen*/
 	z-index:2;
-	top:-4.5%;
+	top:-5.5%;
+    left:7%;
 	position:absolute;
-	right:44%;
+	/*right:44%;*/
 
 }
 
@@ -68,8 +85,8 @@ p{
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; for my computer screen */
-    width: 56px;
-    height: 56px;
+    width: 62px;
+    height: 62px;
     border-radius: 10%;
     cursor: pointer;
     z-index: 3; 
@@ -78,14 +95,17 @@ p{
 
 
 #landing-button-spine h3{
-	display: none;
+    font-size:14px;
+    text-align: center;
+    display: none;
+
 }
 
 #landing-photo{
 	position: absolute;
 	top:-11%;
 	left:50%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .button-text{
@@ -109,53 +129,48 @@ p{
     height: 320px;
     /*background: #e0f2ff;*/
     display: inline-block;
-    border-radius: 10%;
+    border-radius: 5%;
     transition: 2s;
     margin: 0.5%;
-    z-index: -1;
+    z-index: 0;
     position: relative;
-}
-
-.box-header{
-    position:absolute;
-    display: inline-block;
-}
-
-.box-header p{
-    z-index:5;
 }
 
 #landing-photo{
 	display: none;
 }
 
-
 .box-inner-rectangle{
 	position: absolute;
 	width:155px;
 	height: 320px;
-	background-color: #e0f2ff;
-	z-index: 3;
-	border-radius:17%;
-	opacity:0.8;
-    cursor: pointer;
+	background-color: #4f4f4f;
+	z-index: 4;
+	border-radius:5%;
+	opacity:0.7;
     display: inline-block;
 }
 
-/*.box-inner-rectangle:hover{
-    transition-property: width;
-    transition-timing-function: cubic-bezier(.18,.11,.23,.59);
-    transition-duration: 2s;
+.img-overlay{
+    width: 320px;
+    height: 320px;
+    background:#000000;
+    opacity:0.5;
+    display: inline-block;
+    border-radius: 5%;
+    transition: 2s;
+    margin: 0.5%;
 }
-*/
-/*.box-inner-rectangle:hover{	
-    width:90%;
-	transition-property: width;
+
+.box-inner-rectangle:hover{
+    cursor:pointer;	
+    width:320px;
+	transition-property: width, height;
     transition-timing-function: cubic-bezier(.18,.11,.23,.59);
-    transition-duration: 2s;
+    transition-duration: 1s;
     -webkit-transition-property: width, height; 
-    -webkit-transition-duration: 2s; 
-}*/
+    -webkit-transition-duration: 1s; 
+}
 
 .landing-re-color > .design-img-src {
     display: none;
@@ -201,7 +216,7 @@ p{
     height: 100%; 
     width: 100%; 
     position: absolute; 
-    z-index: -1; 
+    z-index: 0; 
     opacity: 0.3;
 }
 
