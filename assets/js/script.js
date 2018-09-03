@@ -8,6 +8,7 @@ $(document).ready(function() {
         $(text).parent().html(text_content);
     }
     $(".design-re-text").attr('style', "color:#ffffff");
+    $(".design-re-text").css('margin', "10% 10% auto 10%");
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
@@ -17,6 +18,7 @@ $(document).ready(function() {
             $(box).attr('style', "background-image: url('" + img_src + "')");
         }
         $(".design-re-text").attr('style', "color:#ffffff");
+        $(".design-re-text").css('margin', "10% 10% auto 10%");
     })
     $(".writing_coloring").click(function() {
             $(".design-re-text").attr("style", "display:none");
@@ -31,6 +33,7 @@ $(document).ready(function() {
                 $(text).parent().html(text_content);
             }
             $(".writing-re-text").attr('style', "color:#ffffff");
+            $(".writing-re-text").css('margin', "10% 10% auto 10%");
     })
     $(".about_coloring").click(function() {
         $(".about-re-text").attr("style", "display:inline");

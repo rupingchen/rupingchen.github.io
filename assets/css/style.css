@@ -46,6 +46,7 @@ h3 {
 p{
 	/*font-size: 24px; for my computer screen*/
 	font-size: 18px;
+    font-family: "Poppins";
 }
 
 #name-bar-text {
@@ -124,7 +125,7 @@ p{
     margin: 0.5%;
     z-index: 0;
     position: relative; for my computer screen*/
-    font-family: "Lato";
+    font-family: "Poppins";
     width: 320px;
     height: 320px;
     /*background: #e0f2ff;*/
@@ -140,36 +141,38 @@ p{
 	display: none;
 }
 
-.box-inner-rectangle{
-	position: absolute;
-	width:155px;
-	height: 320px;
-	background-color: #4f4f4f;
-	z-index: 4;
-	border-radius:5%;
-	opacity:0.7;
-    display: inline-block;
-}
-
 .img-overlay{
     width: 320px;
     height: 320px;
     background:#000000;
-    opacity:0.5;
-    display: inline-block;
+    opacity:0.2;
     border-radius: 5%;
     transition: 2s;
     margin: 0.5%;
 }
 
+.box-inner-rectangle{
+    position: absolute;
+    width:155px;
+    height: 320px;
+    background-color: #000000;
+    z-index: 4;
+    border-radius:5%;
+    opacity:0.7;
+    display: inline-block;
+    transition: all 2s cubic-bezier(.76,.83,.26,.97);
+    -webkit-transition: all 1s cubic-bezier(.76,.83,.26,.97);
+}
+
+/*.box-header p{
+    margin-top:10%;
+    z-index:6;
+    display:none;
+}*/
 .box-inner-rectangle:hover{
-    cursor:pointer;	
     width:320px;
-	transition-property: width, height;
-    transition-timing-function: cubic-bezier(.18,.11,.23,.59);
-    transition-duration: 1s;
-    -webkit-transition-property: width, height; 
-    -webkit-transition-duration: 1s; 
+    font-size:24px;
+    opacity: 1;
 }
 
 .landing-re-color > .design-img-src {
