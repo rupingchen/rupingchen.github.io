@@ -2,13 +2,12 @@ $(document).ready(function() {
     for (let box of Array.from($(".landing-re-color"))){
         let img_src = box.children[2].textContent;
         $(box).attr('style', "background-image: url('" + img_src + "')");
-    }
-    for (let text of Array.from($(".design-re-text .box-header"))){
-        let text_content = text.textContent;
-        $(text).parent().html(text_content);
+        $(box).css("background-size", "cover");
     }
     $(".design-re-text").attr('style', "color:#ffffff");
     $(".design-re-text").css('margin', "10% 10% auto 10%");
+    $(".writing-box-content").attr("style", "display:none");
+    $(".about-box-content").attr("style", "display:none");
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
@@ -16,9 +15,13 @@ $(document).ready(function() {
         for (let box of Array.from($(".landing-re-color"))){
             let img_src = box.children[2].textContent;
             $(box).attr('style', "background-image: url('" + img_src + "')");
+            $(box).css("background-size", "cover");
         }
         $(".design-re-text").attr('style', "color:#ffffff");
         $(".design-re-text").css('margin', "10% 10% auto 10%");
+        $(".writing-box-content").attr("style", "display:none");
+        $(".about-box-content").attr("style", "display:none");
+        $(".design-box-content").attr('style', "color:#ffffff; margin:10% 10% auto 10%; text-decoration:underline");
     })
     $(".writing_coloring").click(function() {
             $(".design-re-text").attr("style", "display:none");
@@ -27,11 +30,15 @@ $(document).ready(function() {
             for (let box of Array.from($(".landing-re-color"))){
                 let img_src = box.children[3].textContent;
                 $(box).attr('style', "background-image: url('" + img_src + "')");
+                $(box).css("background-size", "cover");
             }
             for (let text of Array.from($(".writing-re-text .box-header"))){
                 let text_content = text.textContent;
                 $(text).parent().html(text_content);
             }
+            $(".writing-box-content").attr('style', "color:#ffffff; margin:10% 10% auto 10%; text-decoration:underline");
+            $(".design-box-content").attr("style", "display:none");
+            $(".about-box-content").attr("style", "display:none");
             $(".writing-re-text").attr('style', "color:#ffffff");
             $(".writing-re-text").css('margin', "10% 10% auto 10%");
     })
@@ -48,5 +55,10 @@ $(document).ready(function() {
                 $(text).parent().html(text_content);
             }
             $(".about-re-text").attr('style', "color:#ffffff");
+            $(".about-box-content").attr('style', "color:#ffffff; margin:10% 10% auto 10%; text-decoration:underline");
+            $(".design-box-content").attr("style", "display:none");
+            $(".writing-box-content").attr("style", "display:none");
+            $(".about-re-text").attr('style', "color:#ffffff");
+            $(".about-re-text").css('margin', "10% 10% auto 10%");
     })
 })
