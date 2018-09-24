@@ -1,17 +1,23 @@
 $(document).ready(function() {
+    $(".design-re-text").attr('style', "color:#ffffff");
+    $(".design-re-text").css('margin', "10% 10% auto 10%");
+    $(".writing-box-content").attr("style", "display:none");
+    $(".about-box-content").attr("style", "display:none");
+    $(".design-sub").attr("style", "display:inline");
+    $(".writing-sub").attr("style", "display:none");
+    $(".about-sub").attr("style", "display:none");
     for (let box of Array.from($(".landing-re-color"))){
         let img_src = box.children[2].textContent;
         $(box).attr('style', "background-image: url('" + img_src + "')");
         $(box).css("background-size", "cover");
     }
-    $(".design-re-text").attr('style', "color:#ffffff");
-    $(".design-re-text").css('margin', "10% 10% auto 10%");
-    $(".writing-box-content").attr("style", "display:none");
-    $(".about-box-content").attr("style", "display:none");
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
         $(".about-re-text").attr("style", "display:none");
         $(".design-re-text").attr("style", "display:inline");
+        $(".design-sub").attr("style", "display:inline");
+        $(".writing-sub").attr("style", "display:none");
+        $(".about-sub").attr("style", "display:none");
         for (let box of Array.from($(".landing-re-color"))){
             let img_src = box.children[2].textContent;
             $(box).attr('style', "background-image: url('" + img_src + "')");
@@ -27,6 +33,9 @@ $(document).ready(function() {
             $(".design-re-text").attr("style", "display:none");
             $(".about-re-text").attr("style", "display:none");
             $(".writing-re-text").attr("style", "display:inline");
+            $(".writing-sub").attr('style', 'display:inline');
+            $(".design-sub").attr("style", "display:none");
+            $(".about-sub").attr("style", "display:none");
             for (let box of Array.from($(".landing-re-color"))){
                 let img_src = box.children[3].textContent;
                 $(box).attr('style', "background-image: url('" + img_src + "')");
@@ -46,6 +55,9 @@ $(document).ready(function() {
         $(".about-re-text").attr("style", "display:inline");
         $(".design-re-text").attr("style", "display:none");
         $(".writing-re-text").attr("style", "display:none");
+        $(".about-sub").attr("style", "display:inline");
+        $(".design-sub").attr("style", "display:none");
+        $(".writing-sub").attr("style", "display:none");
             for (let value of Array.from($(".landing-re-color"))){
                 let id = $(value).attr('id');
                 $(value).attr('style','background:rgb(5,'+ (id*65) + "," + (id*195) + ")");
