@@ -73,4 +73,3 @@ $(document).ready(function() {
             $(".about-re-text").attr('style', "color:#ffffff");
             $(".about-re-text").css('margin', "10% 10% auto 10%");
     })
-})
