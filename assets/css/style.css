@@ -1,6 +1,5 @@
-body, html {	/*the outer layer of the site and global style attributes*/
-font-family: "Abel" ,sans-serif;
-font-family:"Quattrocento", sans-serif;
+body, html {    /*the outer layer of the site and global style attributes*/
+font-family: "Abel", "Quattrocento",sans-serif;
 margin-left: 0px;
 height: 100%;
 width: 100%;
@@ -39,14 +38,14 @@ clear: both;
 }
 
 h3 {
-	font-family:"Quattrocento";
-	/*font-size: 30px; for my computer screen*/
-	font-size: 30px;
+    font-family:"Quattrocento";
+    /*font-size: 30px; for my computer screen*/
+    font-size: 30px;
 }
 
 p{
-	/*font-size: 24px; for my computer screen*/
-	font-size: 28px;
+    /*font-size: 24px; for my computer screen*/
+    font-size: 28px;
     font-family: "Abel";
 }
 
@@ -58,15 +57,15 @@ p{
     display: inline-block;
 }
 
-.first-load{
-    
+.first-load:hover{
+    cursor: pointer;
 }
 
 #landing-text{
-	text-align: left;
+    text-align: left;
+    margin-left:6.5%;
     margin-top:12%;
-	margin-left:6.5%;
-	z-index:2;
+    z-index:2;
 }
 
 /*#landing-text p{
@@ -76,13 +75,13 @@ p{
 #landing-button-spine {
     /*position: fixed;
     z-index: 2;
-	top: 10%;
-	left:75%; for my computer screen*/
-	z-index:2;
-	top:-15.5%;
+    top: 10%;
+    left:75%; for my computer screen*/
+    z-index:2;
+    top:-15.5%;
     left:7%;
-	position:absolute;
-	/*right:44%;*/
+    position:absolute;
+    /*right:44%;*/
     justify-content: center;
 
 }
@@ -108,19 +107,19 @@ p{
 }
 
 #landing-photo{
-	position: absolute;
-	top:-11%;
-	left:50%;
-	z-index: 0;
+    position: absolute;
+    top:-11%;
+    left:50%;
+    z-index: 0;
 }
 
 .button-text{
-	text-align: center;
-	font-size: 14px;
+    text-align: center;
+    font-size: 14px;
 }
 
 .landing-re-color{
-	/*font-family: "Lato";
+    /*font-family: "Lato";
     width: 43%;
     height: 350px;
     background: #e0f2ff;
@@ -142,7 +141,7 @@ p{
 }
 
 #landing-photo{
-	display: none;
+    display: none;
 }
 
 /*.img-overlay{
@@ -268,21 +267,21 @@ p{
 }
 
 .design-re-text > div {
-	display:none;
+    display:none;
 }
 
 .writing-re-text > div {
-	display:none;
+    display:none;
 }
 
 .about-re-text > div {
-	display:none;
+    display:none;
 }
 
 #landing-div-spine {
-	justify-content: center;
-	display:flex;
-	flex-wrap:wrap;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
     position: relative;
     top:10%;
 }
@@ -327,37 +326,32 @@ p{
 
 /*earlier versions of iPhone*/
 /*@media (min-width: 300px) and (max-width: 330px) {
-	#landing-button-spine {
-		margin-top: 50%;
-	}	
+    #landing-button-spine {
+        margin-top: 50%;
+    }   
 }
-
 @media (min-width: 340px) and (max-width: 380px) {
-	#landing-button-spine {
-		top:65%;
-	}
+    #landing-button-spine {
+        top:65%;
+    }
 }
-
 @media (min-width: 390px) and (max-width: 450px) {
-	#landing-button-spine {
-		top:58%;
-	}
+    #landing-button-spine {
+        top:58%;
+    }
 }
-
 @media (min-height: 812px) {
-	#landing-button-spine {
-		top:53%;
-	}
+    #landing-button-spine {
+        top:53%;
+    }
 }
-
 @media (max-width: 900px) {
-	#landing-button-spine {
-		top:25%;
-	}
+    #landing-button-spine {
+        top:25%;
+    }
 }
-
 @media (min-width: 1440px) {
-	#landing-text{
-		margin-left: 15%;
-	}
+    #landing-text{
+        margin-left: 15%;
+    }
 }*/
