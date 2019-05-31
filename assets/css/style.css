@@ -1,5 +1,6 @@
 body, html {	/*the outer layer of the site and global style attributes*/
-font-family: "Poppins", "Lato",sans-serif;
+font-family: "Abel" ,sans-serif;
+font-family:"Quattrocento", sans-serif;
 margin-left: 0px;
 height: 100%;
 width: 100%;
@@ -38,15 +39,15 @@ clear: both;
 }
 
 h3 {
-	font-family:"Lato";
+	font-family:"Quattrocento";
 	/*font-size: 30px; for my computer screen*/
-	font-size: 20px;
+	font-size: 30px;
 }
 
 p{
 	/*font-size: 24px; for my computer screen*/
-	font-size: 18px;
-    font-family: "Poppins";
+	font-size: 28px;
+    font-family: "Abel";
 }
 
 #name-bar-text {
@@ -63,6 +64,7 @@ p{
 
 #landing-text{
 	text-align: left;
+    margin-top:12%;
 	margin-left:6.5%;
 	z-index:2;
 }
