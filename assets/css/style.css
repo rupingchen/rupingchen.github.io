@@ -63,6 +63,7 @@ p{
 
 #landing-text{
     text-align: left;
+    margin-right:45%;
     margin-left:6.5%;
     margin-top:5%;
     z-index:2;
@@ -78,8 +79,8 @@ p{
     top: 10%;
     left:75%; for my computer screen*/
     z-index:2;
-    top:-15.5%;
-    left:7%;
+    margin-top:0%;
+    left:6.5%;
     position:absolute;
     /*right:44%;*/
     justify-content: center;
@@ -170,6 +171,10 @@ p{
     color:#d3d3d3;
     margin:10% 10% auto 10%;
     text-decoration:underline;
+}
+
+.design-re-text {
+    font-family:"Quattrocento";
 }
 
 .innertag{
@@ -283,7 +288,7 @@ p{
     display:flex;
     flex-wrap:wrap;
     position: relative;
-    top:10%;
+    top:15%;
 }
 
 .landing-button:active {
@@ -307,6 +312,10 @@ p{
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
 } 
 
+#landing-resume {
+    background:#CCDBDC;
+}
+
 #landing-design { 
     background: #75F0C7;
 }
@@ -325,32 +334,105 @@ p{
 }
 
 /*earlier versions of iPhone*/
-/*@media (min-width: 300px) and (max-width: 330px) {
+@media (min-width: 300px) and (max-width: 330px) {
     #landing-button-spine {
-        margin-top: 50%;
+        margin-top:90%;
+    }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:20px;
     }   
 }
 @media (min-width: 340px) and (max-width: 380px) {
     #landing-button-spine {
-        top:65%;
+        margin-top: -8%;
+    }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:27px;
+    }
+
+    p{
+        font-size:30px;
     }
 }
 @media (min-width: 390px) and (max-width: 450px) {
     #landing-button-spine {
-        top:58%;
+        margin-top: 0%;
     }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:20px;
+    } 
 }
 @media (min-height: 812px) {
     #landing-button-spine {
-        top:53%;
+        margin-top: -30%;
     }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:20px;
+    } 
 }
 @media (max-width: 900px) {
     #landing-button-spine {
         top:25%;
     }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:20px;
+    } 
 }
 @media (min-width: 1440px) {
     #landing-text{
         margin-left: 15%;
     }
+
+    #landing-text{
+        margin-right:0%;
+    }
+
+    h3{
+        font-size:22px;
+    }
+
+    p{
+        font-size:20px;
+    } 
+}

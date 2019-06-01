@@ -1,15 +1,16 @@
 $(document).ready(function() {
-    $(".design-re-text").attr('style', "color:#ffffff");
-    $(".design-re-text").css('margin', "10% 10% auto 10%");
+   /* $(".design-re-text").attr('style', "color:#ffffff");
+    $(".design-re-text").css('margin', "10% 10% auto 10%");*/
     $(".writing-box-content").attr("style", "display:none");
     $(".about-box-content").attr("style", "display:none");
-    $(".design-sub").attr("style", "display:inline");
+    $(".design-sub").attr("style", "display:none");
     $(".writing-sub").attr("style", "display:none");
     $(".about-sub").attr("style", "display:none");
     for (let box of Array.from($(".landing-re-color"))){
         let img_src = box.children[2].textContent;
-        $(box).attr('style', "background-image: url('" + img_src + "')");
-        $(box).css("background-size", "cover");
+        /*$(box).attr('style', "background-image: url('" + img_src + "')");
+        $(box).css("background-size", "cover");*/
+        $(box).attr("style", "display:none");
     }
     $(".design_coloring").click(function() {
         $(".writing-re-text").attr("style", "display:none");
