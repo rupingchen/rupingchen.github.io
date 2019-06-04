@@ -223,7 +223,7 @@ p{
 
 .innertag-arrow p{
     color:#ffffff;
-    margin-left:55%;
+    margin-left:63.5%;
     margin-top:25%;
     opacity:0;
     font-size:12px;
@@ -325,6 +325,10 @@ p{
 
 #landing-about { 
     background: #A1C6EA;
+}
+
+#landing-contact { 
+    background: #A8E0FF;
 }
 
 .inactive { 
