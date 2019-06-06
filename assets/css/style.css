@@ -234,6 +234,11 @@ p{
   animation: bounce 2s infinite;
 }
 
+.scroll{
+    scroll-behavior: smooth;
+}
+
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateX(0);

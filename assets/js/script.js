@@ -29,7 +29,7 @@ $(document).ready(function() {
         $(".writing-box-content").attr("style", "display:none");
         $(".about-box-content").attr("style", "display:none");
         $(".design-box-content").attr('style', "color:#ffffff; margin:10% 10% auto 10%; text-decoration:underline");
-    })
+    });
     $(".writing_coloring").click(function() {
             $(".design-re-text").attr("style", "display:none");
             $(".about-re-text").attr("style", "display:none");
@@ -73,5 +73,10 @@ $(document).ready(function() {
             $(".writing-box-content").attr("style", "display:none");
             $(".about-re-text").attr('style', "color:#ffffff");
             $(".about-re-text").css('margin', "10% 10% auto 10%");
-    })
-})
+    });
+     /*$(".landing-button").click(function(){
+        $("html,body").animate({
+            scrollTop:$("#landing-div-spine").offset.top(), 'slow'
+        });
+    });*/
+});
