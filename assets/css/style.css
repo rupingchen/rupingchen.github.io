@@ -234,9 +234,9 @@ p{
   animation: bounce 2s infinite;
 }
 
-.scroll{
+/*.scroll{
     scroll-behavior: smooth;
-}
+}*/
 
 
 @keyframes bounce {
@@ -339,6 +339,10 @@ p{
 .inactive { 
     opacity: 0.6;
     box-shadow: none;
+}
+
+.inactive-box {
+    display:none;
 }
 
 /*earlier versions of iPhone*/
