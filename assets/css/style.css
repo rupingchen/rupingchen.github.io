@@ -68,11 +68,34 @@ p{
     z-index:2;
 }
 
+#uxw-text{
+    margin-right:45%;
+    margin-left:6.5%;
+    margin-top:5%;
+    z-index:2;
+    animation-name:topFadeOut;
+    animation-duration: 5s;
+}
+
 /*#landing-text p{
     color:#ffffff;
 }*/
 
 #landing-button-spine {
+    /*position: fixed;
+    z-index: 2;
+    top: 10%;
+    left:75%; for my computer screen*/
+    z-index:2;
+    margin-top:0%;
+    left:6.5%;
+    position:absolute;
+    /*right:44%;*/
+    justify-content: center;
+
+}
+
+#uxw-button-spine {
     /*position: fixed;
     z-index: 2;
     top: 10%;
@@ -320,8 +343,16 @@ p{
     background:#CCDBDC;
 }
 
+#uxw-day1{
+    background:#A9FBD7;
+}
+
 #landing-design { 
     background: #75F0C7;
+}
+
+#uxw-day2{
+    background:#BDC2BF;
 }
 
 #landing-writing { 
@@ -345,6 +376,24 @@ p{
     display:none;
 }
 
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -9rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: -2.5rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /*earlier versions of iPhone*/
 @media (min-width: 300px) and (max-width: 330px) {
     #landing-button-spine {
@@ -355,12 +404,16 @@ p{
         margin-right:0%;
     }
 
+    #uxw-text{
+        margin-right:0%;
+    }
+
     h3{
         font-size:22px;
     }
 
     p{
-        font-size:20px;
+        font-size:21px;
     }   
 }
 @media (min-width: 340px) and (max-width: 380px) {
@@ -368,7 +421,15 @@ p{
         margin-top: -8%;
     }
 
+    #uxw-button-spine {
+        margin-top: -8%;
+    }
+
     #landing-text{
+        margin-right:0%;
+    }
+
+    #uxw-text{
         margin-right:0%;
     }
 
@@ -389,6 +450,10 @@ p{
         margin-right:0%;
     }
 
+    #uxw-text{
+        margin-right:0%;
+    }
+
     h3{
         font-size:22px;
     }
@@ -406,6 +471,10 @@ p{
         margin-right:0%;
     }
 
+    #uxw-text{
+        margin-right:0%;
+    }
+
     h3{
         font-size:22px;
     }
@@ -417,6 +486,10 @@ p{
 @media (max-width: 900px) {
     #landing-button-spine {
         top:25%;
+    }
+
+    #landing-text{
+        margin-right:0%;
     }
 
     #landing-text{
@@ -439,6 +512,9 @@ p{
     #landing-text{
         margin-right:0%;
     }
+
+    #landing-text{
+        margin-right:0%;    }
 
     h3{
         font-size:22px;
