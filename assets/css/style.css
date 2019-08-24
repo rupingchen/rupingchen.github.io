@@ -58,16 +58,13 @@ p{
 footer{
     font-family:"Quattrocento";
     font-size:15px;
-    position: absolute;
-  left: 0;
+    position: fixed;
   bottom: 5%;
+  right:2%;
   width: 100%;
-  text-align: center;
+  text-align: right;
 }
 
-#landing-footer{
-    bottom:-25%;
-}
 
 #name-bar-text {
     margin-left: 6.5%;
@@ -89,6 +86,15 @@ footer{
 }
 
 #uxw-text{
+    margin-right:45%;
+    margin-left:6.5%;
+    margin-top:5%;
+    z-index:2;
+    animation-name:topFadeOut;
+    animation-duration: 5s;
+}
+
+#uxw-rewrite-text{
     margin-right:45%;
     margin-left:6.5%;
     margin-top:5%;
