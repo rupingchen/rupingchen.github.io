@@ -55,6 +55,20 @@ p{
     font-family: "Abel";
 }
 
+footer{
+    font-family:"Quattrocento";
+    font-size:15px;
+    position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+#landing-footer{
+    bottom:-25%;
+}
+
 #name-bar-text {
     margin-left: 6.5%;
 }
