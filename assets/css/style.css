@@ -37,6 +37,12 @@ clear: both;
     cursor:pointer;
 }
 
+h4 {
+    font-family:"Quattrocento";
+    /*font-size: 30px; for my computer screen*/
+    font-size: 15px;
+}
+
 h3 {
     font-family:"Quattrocento";
     /*font-size: 30px; for my computer screen*/
@@ -128,10 +134,18 @@ footer{
     left:75%; for my computer screen*/
     z-index:2;
     margin-top:0%;
-    left:6.5%;
+    
     position:absolute;
     /*right:44%;*/
     justify-content: center;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+
+}
+
+.grid-item{
+    margin-right:50px;
 
 }
 
