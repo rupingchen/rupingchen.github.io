@@ -139,7 +139,7 @@ footer{
     /*right:44%;*/
     justify-content: center;
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     grid-column-gap: 10px;
 
 }
@@ -387,12 +387,28 @@ footer{
     background:#A9FBD7;
 }
 
+#uxw-day1-fp{
+    background: #EBEBD3;
+}
+
 #landing-design { 
     background: #75F0C7;
 }
 
 #uxw-day2{
     background:#BDC2BF;
+}
+
+#uxw-day2-fp{
+    background: #F1F2EB;
+}
+
+#uxw-day3{
+    background:#FCD3DE;
+}
+
+#uxw-day3-fp{
+    background: #C9DDFF;
 }
 
 #landing-writing { 
