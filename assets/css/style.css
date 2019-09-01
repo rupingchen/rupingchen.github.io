@@ -139,7 +139,7 @@ footer{
     /*right:44%;*/
     justify-content: center;
     display:grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
 
 }
@@ -493,6 +493,22 @@ footer{
     p{
         font-size:21px;
     }   
+    #uxw-button-spine {
+        /*position: fixed;
+        z-index: 2;
+        top: 10%;
+        left:75%; for my computer screen*/
+        z-index:2;
+        margin-top:0%;
+        
+        position:absolute;
+        /*right:44%;*/
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+
+    }
 }
 @media (min-width: 340px) and (max-width: 380px) {
     #landing-button-spine {
@@ -518,6 +534,23 @@ footer{
     p{
         font-size:30px;
     }
+
+    #uxw-button-spine {
+        /*position: fixed;
+        z-index: 2;
+        top: 10%;
+        left:75%; for my computer screen*/
+        z-index:2;
+        margin-top:0%;
+        
+        position:absolute;
+        /*right:44%;*/
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+
+    }
 }
 @media (min-width: 390px) and (max-width: 450px) {
     #landing-button-spine {
@@ -539,6 +572,23 @@ footer{
     p{
         font-size:20px;
     } 
+
+    #uxw-button-spine {
+        /*position: fixed;
+        z-index: 2;
+        top: 10%;
+        left:75%; for my computer screen*/
+        z-index:2;
+        margin-top:0%;
+        
+        position:absolute;
+        /*right:44%;*/
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+
+    }
 }
 @media (min-height: 812px) {
     #landing-button-spine {
@@ -560,6 +610,22 @@ footer{
     p{
         font-size:20px;
     } 
+    #uxw-button-spine {
+        /*position: fixed;
+        z-index: 2;
+        top: 10%;
+        left:75%; for my computer screen*/
+        z-index:2;
+        margin-top:0%;
+        
+        position:absolute;
+        /*right:44%;*/
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+
+    }
 }
 @media (max-width: 900px) {
     #landing-button-spine {
