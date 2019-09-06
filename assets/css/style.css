@@ -219,7 +219,7 @@ footer{
 
 #landing-photo{
     margin-left:15%;
-    margin-top:5%;
+    margin-top:10%;
     z-index:0;
 }
 
@@ -499,7 +499,7 @@ footer{
     }
 
     #landing-text{
-        margin-right:0%;
+        margin-right:5%;
     }
 
     #uxw-text{
@@ -598,7 +598,7 @@ footer{
     }
 
     #landing-text{
-        margin-right:0%;
+        margin-right:6%;
     }
 
     #uxw-text{
@@ -610,7 +610,7 @@ footer{
     }
 
     p{
-        font-size:30px;
+        font-size:20px;
     }
 
     #landing-photo{
@@ -684,13 +684,25 @@ footer{
 
     }
 }
-/*@media (min-height: 812px) {
-    #landing-button-spine {
-        margin-top: -30%;
+
+@media (min-width: 750px) and (max-width: 1024px) {
+    /*#landing-button-spine {
+        margin-top: 0%;
+        margin-left:3%;
+    }*/
+
+    #landing-div-spine{
+        margin-left:-3%;
+        margin-top:-15%;
     }
 
+    #landing-photo{
+        margin-top:20%;
+    }
+   
     #landing-text{
-        margin-right:0%;
+        margin-left:7%;
+        margin-right:35%;
     }
 
     #uxw-text{
@@ -698,12 +710,14 @@ footer{
     }
 
     h3{
+        margin-top:10%;
         font-size:22px;
     }
 
     p{
         font-size:20px;
     } 
+
     #uxw-button-spine {
         /*position: fixed;
         z-index: 2;
@@ -716,49 +730,60 @@ footer{
         /*right:44%;*/
         justify-content: center;
         display:grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         grid-column-gap: 10px;
 
     }
 }
-@media (min-width: 900px) {
+
+@media (min-width: 1024px) and (max-width: 1366px) {
     #landing-button-spine {
-        top:25%;
+       margin-left:0.5%;
     }
 
-    #landing-text{
-        margin-right:0%;
+    #landing-div-spine{
+        margin-left:0%;
+        margin-top:-15%;
     }
 
+    #landing-photo{
+        margin-top:20%;
+        margin-left:10%;
+    }
+   
     #landing-text{
+        margin-left:7%;
+        margin-right:50%;
+    }
+
+    #uxw-text{
         margin-right:0%;
     }
 
     h3{
+        margin-top:10%;
         font-size:22px;
     }
 
     p{
         font-size:20px;
     } 
+
+    #uxw-button-spine {
+        /*position: fixed;
+        z-index: 2;
+        top: 10%;
+        left:75%; for my computer screen*/
+        z-index:2;
+        margin-top:0%;
+        
+        position:absolute;
+        /*right:44%;*/
+        justify-content: center;
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+
+    }
 }
-@media (min-width: 1440px) {
-    #landing-text{
-        margin-left: 15%;
-    }
 
-    #landing-text{
-        margin-right:0%;
-    }
-
-    #landing-text{
-        margin-right:0%;    }
-
-    h3{
-        font-size:22px;
-    }
-
-    p{
-        font-size:20px;
-    } 
-}*/
