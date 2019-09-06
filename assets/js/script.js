@@ -52,7 +52,7 @@ $(document).ready(function() {
             $(".writing-re-text").attr('style', "color:#ffffff");
             $(".writing-re-text").css('margin', "10% 10% auto 10%");
     })
-    $(".about_coloring").click(function() {
+    /*$(".about_coloring").click(function() {
         $(".about-re-text").attr("style", "display:inline");
         $(".design-re-text").attr("style", "display:none");
         $(".writing-re-text").attr("style", "display:none");
@@ -73,7 +73,7 @@ $(document).ready(function() {
             $(".writing-box-content").attr("style", "display:none");
             $(".about-re-text").attr('style', "color:#ffffff");
             $(".about-re-text").css('margin', "10% 10% auto 10%");
-    });
+    });*/
      /*$(".landing-button").click(function(){
         $("html,body").animate({
             scrollTop:$("#landing-div-spine").offset.top(), 'slow'
