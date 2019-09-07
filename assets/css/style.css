@@ -241,6 +241,12 @@ footer{
     z-index:0;
 }
 
+#uxw-photo{
+    margin-left:120%;
+    margin-top:-80%;
+    z-index:0;
+}
+
 #landing-scroll-photo{
     display:inline-block;
     margin-left:20%;
@@ -611,6 +617,11 @@ footer{
         grid-column-gap: 10px;
 
     }
+
+    #page-container-uxw{
+        position:relative;
+        min-height: 190%;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 385px) {
@@ -662,6 +673,11 @@ footer{
         grid-column-gap: 10px;
 
     }
+
+    #page-container-uxw{
+        position:relative;
+        min-height: 190%;
+    }
 }
 
 @media (min-width: 390px) and (max-width: 450px) {
@@ -712,6 +728,11 @@ footer{
         grid-template-columns: auto;
         grid-column-gap: 10px;
 
+    }
+
+    #page-container-uxw{
+        position:relative;
+        min-height: 170%;
     }
 }
 
@@ -794,7 +815,7 @@ footer{
     }
 
     #uxw-text{
-        margin-right:0%;
+        margin-right:40%;
     }
 
     h3{
