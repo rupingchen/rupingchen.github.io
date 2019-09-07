@@ -217,6 +217,10 @@ footer{
     z-index: 0;
 }
 
+#landing-photo-1{
+    display:none;
+}
+
 .button-text{
     text-align: center;
     font-size: 14px;
@@ -591,12 +595,19 @@ footer{
     }
 
     #page-container-uxw{
-    position:relative;
-    min-height:240%;
-}
+        position:relative;
+        min-height:240%;
+    }
 
     #landing-photo{
-        display:none;
+        display: none
+    }
+
+    #landing-photo-1{
+        position:absolute;  
+        left:75%;
+        top:-0.5%;      
+        display: block;
     }
 
     #uxw-photo{
