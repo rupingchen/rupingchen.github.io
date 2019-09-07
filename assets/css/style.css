@@ -116,6 +116,17 @@ footer{
     padding-bottom:2.5rem;
 }
 
+#about-text{
+    margin-right:45%;
+    margin-left:6.5%;
+    margin-top:5%;
+    z-index:2;
+   /* animation-name:topFadeOut;
+    animation-duration: 5s;*/
+    padding-bottom:2.5rem;
+}
+
+
 #uxw-rewrite-text{
     margin-right:45%;
     margin-left:6.5%;
@@ -245,6 +256,23 @@ footer{
     margin-left:110%;
     margin-top:-90%;
     z-index:0;
+}
+
+#about-photo-2{
+    margin-left:120%;
+    margin-top:-190rem;
+
+}
+
+#about-photo-1{
+  position: fixed;
+  margin-left:0;
+}
+
+#about-photo-3{
+    position: fixed;
+    display: inline-block;
+    left:82.5%;
 }
 
 #landing-scroll-photo{
@@ -422,7 +450,7 @@ footer{
 }
 
 #landing-overlay { 
-    height: 100%; 
+    height: 0%; 
     width: 100%; 
     position: absolute; 
     z-index: 0; 
@@ -571,6 +599,15 @@ footer{
 
     #uxw-photo{
         display:none;
+    }
+
+    #about-photo-2{
+        display:none;
+
+    }
+
+    #about-photo-1{
+        display: none;
     }
 }
 @media (min-width: 340px) and (max-width: 355px) {
