@@ -717,6 +717,13 @@ footer{
         display:none;
     }
 
+    #landing-photo-1{
+        position:absolute;  
+        left:75%;
+        top:-0.5%;      
+        display: block;
+    }
+
  #uxw-photo{
         display:none;
     }
@@ -747,11 +754,11 @@ footer{
 @media (min-width: 390px) and (max-width: 450px) {
     #landing-button-spine {
         margin-top: 0%;
-        margin-left:3%;
+        margin-left:-1%;
     }
 
     #landing-div-spine{
-        margin-left:-4%;
+        margin-left:-12%;
         margin-top:25%;
     }
 
@@ -759,12 +766,19 @@ footer{
         display:none;
     }
 
+    #landing-photo-1{
+        position:absolute;  
+        left:84%;
+        top:-0.5%;      
+        display: block;
+    }
+
      #uxw-photo{
         display:none;
     }
 
     #landing-text{
-        margin-left:10%;
+        margin-left:6%;
         margin-right:7%;
     }
 
@@ -878,7 +892,7 @@ footer{
     }
 
     #landing-photo{
-        margin-top:20%;
+        margin-top:16%;
         margin-left:10%;
     }
 
