@@ -61,14 +61,24 @@ p{
     font-family: "Abel";
 }
 
+#page-container{
+    position:relative;
+    min-height: 100%;
+}
+
+#content-wrap{
+    padding-bottom: 2.5rem;
+}
+
 footer{
     font-family:"Quattrocento";
     font-size:15px;
-    position: fixed;
-  bottom: 5%;
+    position: absolute;
+  bottom: 0;
   right:2%;
   width: 100%;
-  text-align: right;
+  text-align: center;
+  height:2.5rem;
 }
 
 
@@ -212,7 +222,9 @@ footer{
     display: inline-block;
     border-radius: 5%;
     transition: 2s;
-    margin: 0.5%;
+    margin-right: 2.8%;
+    margin-left:2.8%;
+    margin-bottom:2.8%;
     z-index: 0;
     position: relative;
 }
@@ -377,7 +389,7 @@ footer{
     display:flex;
     flex-wrap:wrap;
     position: relative;
-    top:15%;
+    top:12%;
 }
 
 .landing-button:active {
@@ -718,6 +730,13 @@ footer{
         font-size:20px;
     } 
 
+
+    .landing-re-color{
+        margin-right: 0.5%;
+        margin-left:0.5%;
+        margin-bottom:0.5%;
+    }
+
     #uxw-button-spine {
         /*position: fixed;
         z-index: 2;
@@ -736,8 +755,8 @@ footer{
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1366px) {
-    #landing-button-spine {
+@media (min-width: 1024px) and (max-width: 1166px) {
+    #button-spine {
        margin-left:0.5%;
     }
 
@@ -768,6 +787,12 @@ footer{
     p{
         font-size:20px;
     } 
+
+    .landing-re-color{
+        margin-right: 0.5%;
+        margin-left:0.5%;
+        margin-bottom:0.5%;
+    }
 
     #uxw-button-spine {
         /*position: fixed;
