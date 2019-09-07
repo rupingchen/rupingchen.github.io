@@ -259,8 +259,9 @@ footer{
 }
 
 #about-photo-2{
-    margin-left:120%;
-    margin-top:-190rem;
+    position: absolute;
+    margin-left:55%;
+   top:10%;
 
 }
 
@@ -270,9 +271,10 @@ footer{
 }
 
 #about-photo-3{
-    position: fixed;
+    position: absolute;
     display: inline-block;
     left:82.5%;
+    top:55%;
 }
 
 #landing-scroll-photo{
